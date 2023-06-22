@@ -88,7 +88,7 @@ header { padding-block: 1.5rem; position: fixed; top: 0; left: 0; width: 100%; z
         .burger-menu { display: none; }
         .slider-thumbs { flex-grow: 1; 
             .slick-track { width: 450px !important; margin-right: unset !important; 
-                .item { margin-inline: 1.5rem; width: fit-content !important;
+                .item { margin-inline: 1.5rem; width: fit-content !important; cursor: pointer;
                     h6 { font-size: 1.125rem; line-height: 1.625rem; font-weight: 400; color: $white-color; }
                 }
                 .slick-current{
