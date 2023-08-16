@@ -268,7 +268,6 @@
             $('.burger-menu').on('click',function(){
                 $(this).toggleClass('active');
                 $('header').toggleClass('active');
-                // $('.slider-thumbs').slideToggle();
                 if($(".burger-menu").hasClass('active')){
                     console.log('working');
                     $('.slider-thumbs').slideDown();
@@ -306,15 +305,7 @@
                 slidesToScroll: 1,
                 pauseOnHover: false,  
                 asNavFor: ".slider-thumbs", 
-                // responsive: [
-                //     {
-                //         breakpoint: 1300,
-                //         settings: {
-                //             vertical: false,
-                //             verticalSwiping: false,
-                //         }
-                //     }
-                // ]
+                
             }) ; 
 
 
@@ -553,18 +544,6 @@ window.addEventListener(
 
 });
 
-
-
-
-// $('.banner-slider').on('afterChange', function(slick, currentSlide, nextSlide){
-//     console.log('work progress');
-     
-//     if($('.banner-slider .slick-slide').hasClass('slick-active')){
-//         $('.banner-slider .slick-slide').addClass('animate__animated') 
-//     $('.banner-slider .slick-slide').addClass('animate__zoomIn').removeClass('animate__zoomOut');
-//     $('.banner-slider .slick-slide').not('.slick-active').addClass('animate__zoomOut').removeClass('animate__zoomIn'); 
-// }    
-// 	});
 </script>
 </body>
 
